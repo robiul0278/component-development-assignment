@@ -40,18 +40,16 @@ A sample form is included to showcase three input fields: **Name, Email, and Pas
 1. Clone the repository:
 
 ```bash
-git clone <https://github.com/robiul0278/component-development-assignment.git>
+git clone https://github.com/robiul0278/component-development-assignment.git
 
 npm install
 # or
 yarn install
 
-
 npm start
 # or
 yarn start
 
-``
 <InputField
   label="Email"
   placeholder="Enter your email"
@@ -63,4 +61,3 @@ yarn start
   disabled={false}
 />
 
-``

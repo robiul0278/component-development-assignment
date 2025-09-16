@@ -1,11 +1,17 @@
-import ComponentOne from "./components/layout/ComponentOne"
+import ComponentOne from "./components/layout/ComponentOne";
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
 
-const App = () => {
+function App() {
   return (
-    <>
-    <ComponentOne/>
-    </>
-  )
+    <div>
+      <Header />
+      <main className="p-6 h-[90vh]">
+        <ComponentOne/>
+      </main>
+      <Footer/>
+    </div>
+  );
 }
 
 export default App;

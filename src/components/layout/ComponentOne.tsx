@@ -56,6 +56,7 @@ function ComponentOne() {
         helperText="Please provide your full name."
         errorMessage={errors.name}
         invalid={!!errors.name}
+        variant="filled"
       />
       <InputField
         label="Email"
@@ -75,6 +76,7 @@ function ComponentOne() {
         helperText="Please provide your password."
         errorMessage={errors.password}
         invalid={!!errors.password}
+        variant="ghost"
       />
 
       <button

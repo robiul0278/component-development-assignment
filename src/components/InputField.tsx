@@ -1,5 +1,3 @@
-import React from "react";
-
 interface InputFieldProps {
   value?: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -9,7 +7,6 @@ interface InputFieldProps {
   errorMessage?: string;
   disabled?: boolean;
   invalid?: boolean;
-  loading?: boolean;
   variant?: "filled" | "outlined" | "ghost";
   size?: "sm" | "md" | "lg";
   type?: "text" | "password";
@@ -28,15 +25,14 @@ const InputField: React.FC<InputFieldProps> = ({
   size = "md",
   type = "text",
 }) => {
-  const baseStyles =
-    "rounded-md w-full focus:outline-none transition-colors relative";
+
   const sizes = {
     sm: "px-2 py-1 text-sm",
     md: "px-3 py-2 text-base",
     lg: "px-4 py-3 text-lg",
   };
   const variants = {
-    filled: "bg-gray-100 border border-transparent focus:border-blue-500",
+    filled: "bg-gray-100 border focus:border-blue-500",
     outlined: "border border-gray-300 focus:border-blue-500",
     ghost: "bg-transparent border-b border-gray-400 focus:border-blue-500",
   };
@@ -50,7 +46,6 @@ const InputField: React.FC<InputFieldProps> = ({
         type={type}
         placeholder={placeholder}
         className={`
-          ${baseStyles}
           ${sizes[size]}
           ${variants[variant]}
           ${disabled ? "bg-gray-200 cursor-not-allowed" : ""}

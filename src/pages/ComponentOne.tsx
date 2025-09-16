@@ -1,5 +1,5 @@
 import { useState } from "react";
-import InputField from "../InputField";
+import InputField from "../components/InputField";
 
 function ComponentOne() {
   const [name, setName] = useState("");
@@ -44,6 +44,11 @@ function ComponentOne() {
   };
 
   return (
+<>
+    <div className="p-4 border rounded-md mb-4">
+      <h2 className="text-xl font-bold mb-2">Component One</h2>
+      <p>This is the content of Component One.</p>
+    </div>
     <form
       onSubmit={handleSubmit}
       className="p-6 space-y-4 max-w-sm mx-auto"
@@ -87,6 +92,7 @@ function ComponentOne() {
         {loading ? "Submitting..." : "Submit"}
       </button>
     </form>
+</>
   );
 }
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import DataTable from "../DataTable";
-import type { Column } from "../../types/types";
+import DataTable from "../components/DataTable";
+import type { Column } from "../types/types";
 
 interface User {
   id: number;
@@ -26,6 +26,10 @@ function ComponentTwo() {
 
   return (
     <div className="p-6">
+         <div className="p-4 border rounded-md mb-4">
+      <h2 className="text-xl font-bold mb-2">Component Two</h2>
+      <p>This is the content of Component Two.</p>
+    </div>
       <DataTable<User>
         data={users}
         columns={columns}

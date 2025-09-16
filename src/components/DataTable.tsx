@@ -70,9 +70,11 @@ function DataTable<T extends object>({
                 >
                   <div className="flex items-center gap-1">
                     {col.title}
-                    {sortKey === col.dataIndex && (
-                      <span>{sortOrder === "asc" ? "▲" : "▼"}</span>
-                    )}
+              {col.sortable && (
+    <span>
+      {sortKey === col.dataIndex ? (sortOrder === "asc" ? "▲" : "▼") : "▲"}
+    </span>
+  )}
                   </div>
                 </th>
               ))}

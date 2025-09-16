@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DataTable from "../DataTable";
+import type { Column } from "../../types/types";
 
 interface User {
   id: number;
@@ -10,11 +11,11 @@ interface User {
 
 const users: User[] = [
   { id: 1, name: "Alice", email: "alice@example.com", age: 25 },
-  { id: 2, name: "Bob", email: "bob@example.com", age: 30 },
+  { id: 2, name: "Bob", email: "bob@example.com", age: 0 },
   { id: 3, name: "Charlie", email: "charlie@example.com", age: 22 },
 ];
 
-const columns = [
+const columns: Column<User>[] = [
   { key: "name", title: "Name", dataIndex: "name", sortable: true },
   { key: "email", title: "Email", dataIndex: "email" },
   { key: "age", title: "Age", dataIndex: "age", sortable: true },
@@ -22,9 +23,10 @@ const columns = [
 
 function ComponentTwo() {
   const [selectedUsers, setSelectedUsers] = useState<User[]>([]);
+
   return (
     <div className="p-6">
-      <DataTable
+      <DataTable<User>
         data={users}
         columns={columns}
         loading={false}

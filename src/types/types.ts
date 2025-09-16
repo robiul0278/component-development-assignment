@@ -3,6 +3,7 @@ export interface Column<T> {
   title: string;
   dataIndex: keyof T;
   sortable?: boolean;
+  render?: (value: T[keyof T], record: T) => React.ReactNode;
 }
 
 export interface DataTableProps<T> {

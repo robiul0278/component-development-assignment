@@ -2,7 +2,8 @@
 
 ## 🚀 Live Demo
 
-[➡️ View Live Demo](https://your-live-demo-link.com)
+[➡️ View Component Demo](https://components-delta-eight.vercel.app/)
+[➡️ View Storybook Demo](https://component-storybook-navy.vercel.app/?path=/story/components-datatable--default)
 
 ---
 
@@ -18,9 +19,6 @@
 ---
 
 ## ✨ Features
-
-* **Feature 1:** Brief explanation of the feature.
-* **Feature 2:** Brief explanation of the feature.
 * **Responsive Design:** Works seamlessly on desktop and mobile devices.
 * **And more...**
 
@@ -30,12 +28,9 @@
 
 List the major frameworks, libraries, and tools your project is built with.
 
-* **Frontend:** [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Svelte](https://svelte.dev/), etc.
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/), [SCSS](https://sass-lang.com/), [Styled Components](https://styled-components.com/), etc.
-* **State Management:** [Redux](https://redux.js.org/), [Zustand](https://zustand-demo.pmnd.rs/), etc.
-* **Backend:** [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [Django](https://www.djangoproject.com/), etc.
-* **Database:** [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/), etc.
-* **Deployment:** [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), [AWS](https://aws.amazon.com/), etc.
+* **Frontend:** [React](https://reactjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Deployment:** [Vercel](https://vercel.com/)
 * **Development Tools:** [Vite](https://vitejs.dev/), [Storybook](https://storybook.js.org/), [Vitest](https://vitest.dev/), etc.
 
 ---
@@ -44,26 +39,12 @@ List the major frameworks, libraries, and tools your project is built with.
 
 Follow these instructions to set up the project on your local machine for development and testing purposes.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-* Node.js (v18.x or later)
-    ```sh
-    # Example for installing Node.js with nvm
-    nvm install 18
-    nvm use 18
-    ```
-* `npm` or `yarn`
-    ```sh
-    npm install --global yarn
-    ```
 
 ### Installation
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/robiul0278/component-storybook-assignment.git](https://github.com/robiul0278/component-storybook-assignment.git)
     ```
 2.  **Navigate to the project directory:**
     ```sh
@@ -105,30 +86,6 @@ Explain how to run the project and what the available scripts do.
     npm run test
     ```
 
----
-
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
 ## 📬 Contact
 
-[Your Name] - [@YourTwitterHandle](https://twitter.com/YourTwitterHandle) - your.email@example.com
-
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+[Linkedin] - [@robiul0278](https://linkedin.com/robiul0278) - [Portfolio](https://robiul-dev.netlify.app/)

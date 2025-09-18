@@ -7,17 +7,6 @@
 
 ---
 
-## 📸 Screenshots
-
-*A picture is worth a thousand words. Show, don't just tell.*
-
-| Feature A | Feature B |
-| :---: | :---: |
-| *Description for screenshot A.* | *Description for screenshot B.* |
-| ![Screenshot of Feature A](./screenshots/feature-a.png) | ![GIF of Feature B](./screenshots/feature-b.gif) |
-
----
-
 ## ✨ Features
 * **Responsive Design:** Works seamlessly on desktop and mobile devices.
 * **And more...**
@@ -88,4 +77,4 @@ Explain how to run the project and what the available scripts do.
 
 ## 📬 Contact
 
-[Linkedin] - [@robiul0278](https://linkedin.com/robiul0278) - [Portfolio](https://robiul-dev.netlify.app/)
+[Robiul Hasan] - [Linkedin](https://www.linkedin.com/in/robiul0278/) - [Portfolio](https://robiul-dev.netlify.app/)

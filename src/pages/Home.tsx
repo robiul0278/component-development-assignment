@@ -12,14 +12,14 @@ function HomePage() {
           onClick={() => navigate("/one")}
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
         >
-          Go to Component One
+          Go to Input Field
         </button>
 
         <button
           onClick={() => navigate("/two")}
           className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition"
         >
-          Go to Component Two
+          Go to Data Table
         </button>
       </div>
     </main>

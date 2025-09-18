@@ -7,11 +7,6 @@ const Header = () => {
         <Link to="/">
           <h1 className="text-xl font-bold cursor-pointer">LOGO</h1>
         </Link>
-        <nav className="space-x-4">
-          <a href="/" className="hover:text-gray-200 transition">Home</a>
-          <a href="/" className="hover:text-gray-200 transition">About</a>
-          <a href="/" className="hover:text-gray-200 transition">Contact</a>
-        </nav>
       </div>
     </header>
   );
